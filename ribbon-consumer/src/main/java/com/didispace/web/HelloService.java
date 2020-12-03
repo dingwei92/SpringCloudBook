@@ -21,7 +21,7 @@ public class HelloService {
     @Autowired
     RestTemplate restTemplate;
 
-    @HystrixCommand(fallbackMethod = "helloFallback", commandKey = "helloKey")
+    //@HystrixCommand(fallbackMethod = "helloFallback", commandKey = "helloKey")
     public String hello() {
         long start = System.currentTimeMillis();
 
