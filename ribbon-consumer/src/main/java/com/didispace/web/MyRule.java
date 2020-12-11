@@ -28,7 +28,7 @@ public class MyRule implements IRule {
         if(rand > 7){
             return getServerByPort(servers, 8081);
         }else{
-            return getServerByPort(servers, 8081);
+            return getServerByPort(servers, 8082);
         }
     }
     /**
